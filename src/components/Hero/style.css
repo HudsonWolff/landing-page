@@ -1,10 +1,11 @@
 #section-hero{
     display: flex;
-    width: 79rem;
+    width: 65.83vw;
     flex-direction: column;
     border-radius: 2rem;
     padding: 2rem;
-    background-color: #00BBFfff;
+    background-color:#812be2 ;
+    border-radius: 2rem;
 }
 
 
@@ -16,22 +17,4 @@
     padding-bottom: 1rem;
 }
 
-#section-hero > div > h1{
-    font-size: 3rem;
-    color: white;
 
-}
-#section-hero > div > h2{
-    color: #ffD700;
-}
-
-#section-hero>button{
-    margin: auto;
-    padding: 3rem;
-    background-color: #FF1493;
-    border-radius: 1.5rem;
-    border: none;
-    color: #ffffff;
-    font-size: 2rem;
-    margin-top: 1rem;
-}

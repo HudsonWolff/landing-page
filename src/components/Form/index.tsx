@@ -11,6 +11,8 @@ function Form() {
   return (
     <>
       <section id="section-form">
+        <h2 className="h2-default">Inscreva-se na nossa NewsLetter!</h2>
+        <p className="p-default">Receba atualizações exclusiivas sobre o evento, desconto especiais e noticias em primeira mão</p>
         <form action="submit">
           <fieldset className="fieldset-form">
             <label htmlFor="name"> Nome : </label>
@@ -62,7 +64,7 @@ function Form() {
             />
           </fieldset>
 
-          <button type="submit">Enviar</button>
+          <button className="button-default" type="submit">Enviar</button>
         </form>
 
         {/* Tag usada para manter a estrutura de texto digitada */}

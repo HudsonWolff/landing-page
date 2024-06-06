@@ -1,7 +1,31 @@
-*{
-margin: 0;
-padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
 
+.button-default {
+  padding: 3rem;
+  border-radius: 1.5rem;
+  background-color: #ff1493;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: auto;
+  border: none;
+  margin-top: 1rem;
+  width: 30.9rem;
+}
+
+ .h2-default{
+  font-size: 3rem;
+  color: #ffD700;
+  text-shadow: 3px 3px 3px black;
 
 }
 
+ .p-default{
+
+font-size: 1.5rem;
+color: #ffffff;
+text-shadow: 3px 3px 3px black;
+margin-bottom: 2rem;
+}

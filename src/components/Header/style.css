@@ -1,5 +1,5 @@
 header{
-    width: 100vw;
+    width:calc(65.83vw + 4rem) ;
     height: 10vh;
     display: flex;
     
@@ -8,6 +8,7 @@ header{
 }
 header > img {
   height: 10vh;
+  border-radius: 2rem 0 0 2rem;
     
 }
 
@@ -29,7 +30,7 @@ header>nav>ul>li{
 }
 header>nav>ul>li>a{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #ffffff;
     &:hover{
         color: #FFD700;
