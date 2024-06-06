@@ -1,0 +1,42 @@
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    
+    align-items: center;
+    background-color: #8A2BE2;
+}
+header > img {
+  height: 10vh;
+    
+}
+
+header > nav{
+    width: 90vw;
+}
+
+
+header > nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+header>nav>ul>li{
+
+    list-style-type: none;
+    
+}
+header>nav>ul>li>a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    &:hover{
+        color: #FFD700;
+    }
+
+    }
+
+    /* header>nav>ul>li>a:hover{
+        color: blue; tambem é uma maneira de fazer o hover
+    } */ 

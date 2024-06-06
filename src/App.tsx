@@ -2,6 +2,8 @@
 
 import './App.css'
 import Form from './components/Form';
+import Header from './components/Header';
+import Hero from './components/Hero';
 
 function App() {
 
@@ -19,9 +21,12 @@ width:"100vw"
   }}>
 
 
+<Header/>
+<Hero/>
   <Form/>
+
   </div>
-  )
+  );
     
 }
 
