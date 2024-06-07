@@ -1,7 +1,7 @@
 import "./style.css";
 
 function Hero() {
-  return <section id="section-hero">
+  return <section id="section-hero" className="box-default">
 <div>
 <h2 className="h2-default">Venha ao Maior Evento de Cosplay de Anime do Ano!</h2>
 <p className="p-default">Junte-se a nós para um dia cheio de diversão, competição e cultura otaku</p>

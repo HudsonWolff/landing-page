@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Merriweather Sans";
 }
 
 .button-default {
@@ -15,17 +18,21 @@
   width: 30.9rem;
 }
 
- .h2-default{
-  font-size: 3rem;
-  color: #ffD700;
+.h2-default {
+  font-size: 2rem;
+  color: #ffd700;
   text-shadow: 3px 3px 3px black;
-
 }
 
- .p-default{
+.p-default {
+  font-size: 1.5rem;
+  color: #ffffff;
+  text-shadow: 3px 3px 3px black;
+  margin-bottom: 2rem;
+}
 
-font-size: 1.5rem;
-color: #ffffff;
-text-shadow: 3px 3px 3px black;
-margin-bottom: 2rem;
+.box-default {
+  padding: 2rem;
+  background-color: #812be2;
+  border-radius: 2rem;
 }

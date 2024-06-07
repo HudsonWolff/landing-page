@@ -3,9 +3,6 @@
     width: 65.83vw;
     flex-direction: column;
     border-radius: 2rem;
-    padding: 2rem;
-    background-color:#812be2 ;
-    border-radius: 2rem;
 }
 
 
@@ -18,3 +15,6 @@
 }
 
 
+#section-hero > img{
+    border-radius: 2rem;
+}
