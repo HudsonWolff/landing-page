@@ -1,6 +1,7 @@
 
 
 import './App.css'
+import About from './components/About';
 import Form from './components/Form';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -28,6 +29,7 @@ backgroundColor:" #00BBFfff"
 <Hero/>
 <Tickets/>
   <Form/>
+  <About/>
 
   </div>
   );
