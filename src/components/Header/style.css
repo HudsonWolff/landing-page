@@ -2,9 +2,12 @@ header{
     width:calc(65.83vw + 4rem) ;
     height: 10vh;
     display: flex;
-    
     align-items: center;
     background-color: #8A2BE2;
+    border-radius: 2rem;
+    position: fixed;
+    top: 0;
+    z-index: 2;
 }
 header > img {
   height: 10vh;
