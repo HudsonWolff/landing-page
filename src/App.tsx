@@ -5,6 +5,8 @@ import About from './components/About';
 import Form from './components/Form';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Location from './components/Location';
+import Schedule from './components/Schedule';
 import Tickets from './components/Tickets';
 
 function App() {
@@ -30,6 +32,10 @@ backgroundColor:" #00BBFfff"
 <Tickets/>
   <Form/>
   <About/>
+  <Schedule/>
+  <Location/>
+
+ 
 
   </div>
   );

@@ -1,0 +1,27 @@
+#schedule-section {
+    display: flex;
+    width: 65.83vw;
+    
+    flex-direction: column;
+    border-radius: 2rem;
+    background-image: url(/src/assets/cronograma.jpg) ;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+
+  
+
+.h2-schedule {
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 10px 3px 3px black;
+}
+.p-schedule {
+  margin-top: 2rem;
+  font-size: 2rem;
+  align-items: center;
+  text-shadow: 5px 5px 5px black;
+}

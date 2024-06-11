@@ -9,7 +9,7 @@ function Header() {
 <ul>
 <li> <a href="#section-hero">Home</a>  </li>
     <li> <a href="#about-section">Sobre</a>  </li>
-    <li> <a href="">Cronograna</a>  </li>
+    <li> <a href="#schedule-section">Cronograna</a>  </li>
     <li><a href="#section-tickets"> Ingressos</a> </li>
     <li> <a href="">Localização</a> </li>
     <li> <a href="">Contato</a> </li>

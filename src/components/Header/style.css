@@ -33,7 +33,7 @@ header>nav>ul>li{
 }
 header>nav>ul>li>a{
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #ffffff;
     &:hover{
         color: #FFD700;
