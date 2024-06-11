@@ -11,8 +11,8 @@ function Header() {
     <li> <a href="#about-section">Sobre</a>  </li>
     <li> <a href="#schedule-section">Cronograna</a>  </li>
     <li><a href="#section-tickets"> Ingressos</a> </li>
-    <li> <a href="">Localização</a> </li>
-    <li> <a href="">Contato</a> </li>
+    <li> <a href="#location-section">Localização</a> </li>
+    <li> <a href="#contact-section">Contato</a> </li>
     <li> <a href="#section-form">NewsLetter</a> </li>
 </ul>
 

@@ -1,0 +1,29 @@
+#contact-section {
+  background-color: #00bbffff;
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+  width: 100%;
+  flex-direction: column;
+}
+#h2-contact {
+  font-size: 3.5rem;
+  animation: brilharTexto 1s infinite;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.social-links a {
+  margin: 0 2rem;
+}
+.social-links a img {
+  width: 5rem;
+  cursor: pointer;
+  &:hover {
+    box-shadow: blueviolet 0.5rem 0.25rem 1rem 0.5rem;
+  }
+}

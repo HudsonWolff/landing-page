@@ -14,7 +14,7 @@
   font-size: 1.5rem;
   margin: auto;
   border: none;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   width: 30.9rem;
   cursor: pointer;
   transition: 1.3s;
@@ -23,6 +23,7 @@
     color: #ff1493;
 
   }
+  animation: mover 0.5s infinite;
 }
 
 .h2-default {

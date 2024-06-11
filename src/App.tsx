@@ -1,7 +1,9 @@
 
 
 import './App.css'
+import './animaions.css'
 import About from './components/About';
+import Contact from './components/Contact';
 import Form from './components/Form';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -34,6 +36,7 @@ backgroundColor:" #00BBFfff"
   <About/>
   <Schedule/>
   <Location/>
+  <Contact/>
 
  
 

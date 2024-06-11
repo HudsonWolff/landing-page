@@ -1,0 +1,31 @@
+#location-section{
+    border: 0.4rem solid; 
+    animation: pulse 1s infinite;
+
+
+}
+
+
+
+.h2-location{
+text-align: center;
+
+
+}
+.pre-location{
+    text-align: center;
+}
+
+
+
+@keyframes pulse {
+    0% {
+        border-color: #fee501;
+    }
+    50% {
+        border-color: #dcad04;
+    }
+    100% {
+        border-color: #dad309;
+    }
+}
