@@ -1,27 +1,45 @@
 #schedule-section {
-    display: flex;
-    width: 65.83vw;
-    
-    flex-direction: column;
-    border-radius: 2rem;
-    background-image: url(/src/assets/cronograma.jpg) ;
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0, 0.9);
-  }
+  display: flex;
+  width: calc(65.83vw + 4rem);
 
+  flex-direction: column;
+  border-radius: 2rem;
+  background-image: url(/src/assets/cronograma.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
 
-  
+#schedule-section > div {
+  z-index: 2;
+  align-self: center;
+border-radius: 2rem;
+width: calc(65.83vw + 4rem);
+  background-color: #453f3fb8;
+  margin: 0 2rem 0 2rem;
+}
 
 .h2-schedule {
   text-align: center;
   font-size: 2rem;
   text-shadow: 10px 3px 3px black;
+  
 }
 .p-schedule {
+  
   margin-top: 2rem;
   font-size: 2rem;
   align-items: center;
   text-shadow: 5px 5px 5px black;
+ padding: 2rem;
+
+  
+}
+
+.new-box{
+  
+  background-color: #812be2;
+  border-radius: 2rem;
+
 }

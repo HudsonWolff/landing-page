@@ -23,7 +23,7 @@
     color: #ff1493;
 
   }
-  animation: mover 0.5s infinite;
+  animation: mover 0.5s infinite , brilhar 1s infinite;
 }
 
 .h2-default {

@@ -5,8 +5,8 @@ function Schedule() {
   
   return (
 
-    <section id="schedule-section" className="box-default">
-    
+    <section id="schedule-section" className='new-box'>
+    <div>
        
 <h2 className='h2-default h2-schedule'>NOSSO CRONOGRAMA</h2>
 <pre className='p-default p-schedule'>
@@ -61,14 +61,15 @@ Manhã:
 
 Tarde:
 
-13:00 - Concurso de dança cosplay, onde os participantes podem apresentar coreografias de seus per-
-sonagens favoritos.
+13:00 - Concurso de dança cosplay, onde os participantes podem apresentar coreografias de 
+seus personagens favoritos.
 
 15:00 - Torneio de cartas colecionáveis (por exemplo, Magic: The Gathering ou Pokémon TCG).
 
 Noite:
 
-18:00 - Desfile de cosplay em grupo, onde equipes podem mostrar suas performances coordenadas.
+18:00 - Desfile de cosplay em grupo, onde equipes podem mostrar suas performances coorde-
+nadas.
 
 20:00 - Apresentação de uma banda de J-Rock ou J-Pop.
 
@@ -85,8 +86,8 @@ Noite:
 
 Manhã:
 
-10:00 - Concurso de arte cosplay, onde os artistas podem exibir suas ilustrações inspiradas em perso-
-nagens de anime e mangá.
+10:00 - Concurso de arte cosplay, onde os artistas podem exibir suas ilustrações inspiradas em 
+personagens de anime e mangá.
 
 11:00 - Mesa redonda com artistas convidados sobre a indústria de anime e mangá.
 
@@ -104,7 +105,7 @@ Noite:
 20:00 - Festa de encerramento com DJ tocando música anime e remixes.`}</pre>
 
 
-
+</div>
 
         </section>
   )
