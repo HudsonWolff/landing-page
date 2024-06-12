@@ -7,7 +7,7 @@ header{
     border-radius: 2rem;
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 100;
 }
 header > img {
   height: 10vh;
@@ -40,6 +40,15 @@ header>nav>ul>li>a{
     }
 
     }
+    .scrolled {
+        background-color: #4b0082; 
+      }
+      
+      .hidden {
+        opacity: 0;
+        pointer-events: none;
+      }
+    
 
     /* header>nav>ul>li>a:hover{
         color: blue; tambem é uma maneira de fazer o hover
